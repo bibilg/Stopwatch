@@ -16,6 +16,27 @@ body{
 
 h1{
     text-align: center;
+    padding: 4%;
+    font-size: 3em;
+}
+
+.time{
+    text-align: center;
+    font-size: 8em;
+    padding: 4%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto; /* To center a division */
+}
+
+.button{
+    border: 1px solid black;
+    padding: 3% 5%;
+    font-size: 3em;
 }
 
 /* END CSS */
