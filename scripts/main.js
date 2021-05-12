@@ -1,5 +1,4 @@
-// TODO : test if window.onload is obligatory
-window.onload = function () {
+//window.onload = function () { // no obligatory
 
 const tensHTML = document.getElementById('tens');
 const secondsHTML = document.getElementById('seconds');
@@ -57,4 +56,4 @@ function runTimer() {
 
 }
 
-}
+//}
