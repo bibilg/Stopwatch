@@ -3,8 +3,8 @@
 const tensHTML = document.getElementById('tens');
 const secondsHTML = document.getElementById('seconds');
 
-let tens = 00;
-let seconds = 00;
+let tens = 0;
+let seconds = 0;
 
 const buttonStart = document.getElementById('button__start');
 const buttonStop = document.getElementById('button__stop');
@@ -25,8 +25,8 @@ buttonStop.onclick = function() {
 buttonReset.onclick = function() {
 
     clearInterval(Interval);
-    tens = 00;
-    seconds = 00;
+    tens = 0;
+    seconds = 0;
 
     // TODO : MAKE this in a fonction ( call many times )
     tensHTML.textContent = "00";
@@ -43,8 +43,8 @@ function runTimer() {
         tensHTML.textContent = tens;
     }
 
-    if(tens == 100){
-        tens = 00;
+    if(tens == 99){
+        tens = 0;
         seconds ++;
 
         if(seconds < 10){
